@@ -1,4 +1,71 @@
 body {
-    background-color: firebrick
+    background-image: url(http://saxony-blue.com/data/out/49/5560533-space-wallpaper-hd.jpg)
 }
 
+nav {
+    left: 200px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: blue;
+  }
+  
+  li {
+    float: right;
+    
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 9px 6px;
+    text-decoration: none;
+    background-color: darkred;
+  }
+  
+  /* Change the link color to black on hover */
+  li a:hover {
+    background-color: black;
+  }
+
+h1 {
+    font-size: 75px;
+    color: darkred;
+    }
+h3 {
+    color: darkred;
+}
+
+.about {
+    color: cadetblue;
+    text-align: center;
+    margin: 10px;
+    font-size: 18px;
+
+}
+.card-deck {
+    margin: 3px;
+    height: 290px;
+    width: 1000px;
+    position: relative;
+    align-content: left;
+    padding: 2%;    
+}
+
+.contactinfo {
+    text-decoration-color: blue;
+}
+
+.logo {
+    height: 5px;
+    width: 5px;
+}
+.two {
+    height: 50px;
+    width: 500px;
+    position: relative;
+    align-content: center;
+    font-size: 24px;
+    list-style-image: inherit;
+}
