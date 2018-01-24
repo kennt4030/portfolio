@@ -25,3 +25,19 @@ gulp.task('serve', function () {
     });
     gulp.watch("*.html").on("change", reload);
 });
+
+// compiles scss files from /scss into /css
+gulp.task('sass', function() {
+    return gulp.src('scss/main.scss')
+    .pipe(sass())
+    .pipe(gulp.dest('css'))
+    .pipe(browserSync.reload({
+        stream: true
+    }))
+})
+
+//runs sass and serve methods, watches for changes and reloads
+gulp.task('dev', ['serve', 'sass'], function() {
+    gulp.watch('scss/*,scss', ['sass']);
+    gulp.watch('*.html');
+})
