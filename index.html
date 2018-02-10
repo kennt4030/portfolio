@@ -12,8 +12,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <!-- fonts-->
     <link href="https://fonts.googleapis.com/css?family=Belleza' rel='stylesheet">
-    <link href="" rel="stylesheet" type="text/css">
-
+    <!-- animations -->
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="animate.min.css">
     <!-- custom styles for this template -->
     <link href="css/main.css" rel="stylesheet" type="text/css">
    
@@ -30,26 +31,27 @@
     <!-- header -->
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
-          <h1 class="display-4" style="color:firebrick;">Kenny Johnson</h1>
+          <h1 class="slideInLeft" style="color:firebrick;">Kenny Johnson</h1>
           <p class="lead" style="color:firebrick;">Web Developer</p>
         </div>
       </div>
       
     
 <!-- about -->
-    <h1>About</h1>
-    <section class="about">
-        I was born in Indiana but that was short lived. I have traveled to three continents, 
-        countrys and either lived inn or been to most of the contenental United states.
-        As a life long learner I have learned to play four instruments, played in front
-        I am a certifide welder, a Master Molder and Sr. Processor in plastic injection molding
-        I joined the Eleven Fifty Academy Accelerated Learning Program, JavaScript course on 
-        January 8th, 2018 in hopes to become the best web developer I could become
-    </section>
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="slideInLeft" style="color:firebrick;">About</h1>
+      <p class="lead" style="color:firebrick;">I was born in Indiana but that was short lived. I have traveled to three continents, 
+          countrys and either lived inn or been to most of the contenental United states.
+          As a life long learner I have learned to play four instruments, played in front
+          I am a certifide welder, a Master Molder and Sr. Processor in plastic injection molding
+          I joined the Eleven Fifty Academy Accelerated Learning Program, JavaScript course on 
+          January 8th, 2018 in hopes to become the best web developer I could become</p>
+    </div>
+  </div>
 
-        <br>
-        <br>
-    <!-- portfolio -->
+        <!-- portfolio -->
+    
     <section>
             <div class="card-deck">
                 <a href="https://github.com/kennt4030/Web-Page-Project">
@@ -93,8 +95,8 @@
                           </div>
                         </a>
             </div>
-   
-    </section>
+       </section>
+       
     <!-- contact -->
     <div class="contactinfo"> <li style="float:right" text-color= "blue"> 
         <H1>Contact</H1>
@@ -126,8 +128,9 @@
 
     <!-- scripts -->
     <script src="js/main.js"></script>
-
-    
+    <!-- wow.js -->
+    <script src="js/wow.min.js"></script>
+    <script>new WOW().init();</script>
     <!-- jQuery -->
     <!-- bootstrap -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>

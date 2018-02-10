@@ -1,3 +1,7 @@
+body {
+  background-color: darkblue;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -26,8 +30,7 @@ li a:hover {
 .jumbotron-header {
   background-color: darkblue;
   padding-top: 50px;
-  font-weight: 400;
-  font-size: 200rem; }
+  font-weight: 400; }
 
 .jumbotron-container {
   background-color: darkblue;
