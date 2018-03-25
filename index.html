@@ -22,34 +22,52 @@
 </head>
 <body>
     <!-- navigation -->
-        <ul class="nav">
+        <!-- <ul class="nav">
                 <li style="float:center"><a class="active" href="#contact">Contact</a></li>
                 <li style="float:right"><a class="active" href="#about">About</a></li>
-            </ul>
+            </ul> -->
     <!-- header -->
-    <center><header>
+    <center><header id="showcase">
         <h1><big>Kenny Johnson</big></h1>
-        <h3>Junior Web Developer</h3>
+        <h3>Web Developer</h3>
+        <div class="row">
+        <a href="#about" class="button">About</a>
+        &nbsp;
+        <a href="#projects" class="button">Projects</a>
+        &nbsp;
+        <a href="#contact" class="button">Contact</a>
+      </div>
     </header></center>
     <br>
     <br>
 <!-- about -->
-    <h1>About</h1>
+    
     <section class="about">
+      <a  name="about" >
+          <h1>About</h1>
       I was born in Indiana but that was short lived. I have traveled to three continents, 
       nine countries and either lived in or been to most of the continental United states. 
       As a lifelong learner I have learned to play four instruments, played in front I am 
       a certified welder, a Master Molder and Sr. Processor in plastic injection molding 
       I joined the Eleven Fifty Academy Accelerated Learning Program, JavaScript course on 
       January 8th, 2018 in hopes to become the best web developer I could become. 
+    </a>
+
+    <div class="row">
+        <a href="#projects" class="button">Projects</a>
+        &nbsp;
+        <a href="#contact" class="button">Contact</a>
+      </div>
     </section>
 
         <br>
         <br>
     <!-- portfolio -->
-    <section>
+    <a  name="projects" >
+    <section class="projects" a name="projects" >
+      <H1>Projects</H1>
             <div class="card-deck">
-                <a href="https://github.com/kennt4030/Web-Page-Project">
+                <a href="https://kennt4030.github.io/Web-Page-Project/">
                     <div class="card">
                       <img class="card-img-top" src="https://www.manejandodatos.es/wp-content/uploads/2013/07/html5_logo.png" alt="Card image cap">
                       <div class="card-body">
@@ -69,12 +87,12 @@
                         <a href="https://github.com/kennt4030/javascript-library">
                       <img class="card-img-top" src="https://www.javatpoint.com/images/javascript/javascript_logo.png" alt="Card image cap">
                       <div class="card-body">
-                        <h5 class="card-title">JavaScript<b></b> Lybrary</h5>
+                        <h5 class="card-title">JavaScript<b></b> Library</h5>
                       </div>
                     </a>
                     </div>
                     <div class="card">
-                        <a href="https://github.com/kennt4030/api-challenge-2">
+                        <a href="https://kennt4030.github.io/api-challenge-2/">
                             <img class="card-img-top" src="https://www.webhostdesignpost.com/sites/default/files/cover/what-is-ajax.jpg" alt="Card image cap">
                             <div class="card-body">
                               <h5 class="card-title">Ajax API Project</h5>
@@ -98,28 +116,39 @@
                         </div>
                       </a>
             </div>
-   
+            <div class="row">
+                <a href="#about" class="button">About</a>
+                &nbsp;
+                <a href="#contact" class="button">Contact</a>
+              </div>
     </section>
+  </a>
     <!-- contact -->
-    <div class="contactinfo"> <li style="float:right" text-color= "blue"> 
+    <a  name="contact" >
+    <section class="contact" name="contacts">
+    <div class="contactinfo" style="float:right" text-color= "#926239"> 
         <H1>Contact</H1>
-        <font color=blue><p>Phone Number = 8125818561</p></font>
+        <font color=blue><p>Phone Number = (812)581-8561</p></font>
         <font color=blue><p>email = kenny47201@gmail.com</p></font>
-        <font color=blue><p>©-copywrite-2018</p></li></font> 
+         
     </div>
     <br>
     <br>
-    <section class="contact">
+    
         <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="kenny-johnson-616945155"><a class="LI-simple-link" href='https://www.linkedin.com/in/kenny-johnson-616945155?trk=profile-badge'>Kenny Johnson</a></div>
         <button type="button" class="btn btn-git"><a href="https://github.com/kennt4030"></a><i class="fa fa-github pr-1"></i> Github</button>
             <!-- <div class="github"><a href="https://github.com/kennt4030"><img id="github" src="https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png" alt="github" width="150px" height="75px" border="0"></a></div> -->
-   
-            </section> 
-
+            <div class="row">
+                <a href="#about" class="button">About</a>
+                &nbsp;
+                <a href="#projects" class="button">Projects</a>
+              </div>
+    </section> 
+          </a>
              
     <!-- footer -->
     
-    
+    <font color=black><p>©-Copyright-2018</p></font>
 
     <!-- copyright -->
 
@@ -130,9 +159,10 @@
     
 
     <!-- scripts -->
+    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
     <script src="js/main.js"></script>
 
-    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+
     <!-- jQuery -->
     <!-- bootstrap -->
     

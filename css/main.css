@@ -1,9 +1,66 @@
 body {
-    background: #0f0c29;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background: #8e9eab;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            
 }
+
+#showcase {
+      background-image:url('http://traversymedia.com/downloads/assets/beachshowcase.jpg');
+  background-size:cover;
+  background-position:center;
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  padding:0 20px;
+}
+
+#showcase .button {
+    font-size:18px;
+    text-decoration:none;
+    background-color: #B5BEC6;
+    color:#45627A;
+    border:#45627A 1px solid;
+    padding:10px 20px;
+    border-radius:10px;
+    margin-top:20px;
+  }
+
+.about .button {
+    font-size:18px;
+    text-decoration:none;
+    background-color: #B5BEC6;
+    color:#45627A;
+    border:#45627A 1px solid;
+    padding:10px 20px;
+    border-radius:10px;
+    margin-top:20px;
+  }
+
+.projects .button {
+    font-size:18px;
+    text-decoration:none;
+    background-color: #B5BEC6;
+    color:#45627A;
+    border:#45627A 1px solid;
+    padding:10px 20px;
+    border-radius:10px;
+    margin-top:20px;
+  }
+
+.contact .button {
+    font-size:18px;
+    text-decoration:none;
+    background-color: #B5BEC6;
+    color:#45627A;
+    border:#45627A 1px solid;
+    padding:10px 20px;
+    border-radius:10px;
+    margin-top:20px;
+  }
 
 nav {
     left: 200px;
@@ -34,18 +91,34 @@ nav {
 
 h1 {
     font-size: 75px;
-    color: darkred;
+    color: #45627A;
     }
 h3 {
-    color: darkred;
+    color: #45627A;
 }
 
 .about {
-    color: cadetblue;
-    text-align: center;
-    margin: 10px;
-    font-size: 18px;
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:0 20px;    
+}
 
+.projects {
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:0 20px;
 }
 .card-deck {
     margin: 3px;
@@ -53,11 +126,24 @@ h3 {
     width: 1200px;
     position: relative;
     align-content: left;
-    padding: 2%;    
+    padding: 2%;
+    background-color: #45627A;    
 }
 
 .contactinfo {
-    text-decoration-color: blue;
+    text-decoration-color: #926239;
+}
+
+.contact {
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:0 20px;
 }
 
 .logo {
